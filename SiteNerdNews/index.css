@@ -1,0 +1,64 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:rgb(255, 255, 255);
+    background-color:rgb(85, 17, 173);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.ace {
+    border: 6px solid rgb(0, 255, 64);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner {
+    border: 6px solid rgb(0, 255, 64);
+    margin:auto
+}
+
+.cardd {
+    margin: auto;
+    display: grid;
+    position: relative;
+}
+
+.noticia {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    position: absolute;
+    font-size-adjust: 0.58;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    translate: auto;
+}
+
+.tab {
+    color: rgb(0, 255, 64);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: none;
+    text-shadow: 2px 0px 10px rgb(0, 255, 64);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 1px;
+}
+
+.not {
+    user-select: none;
+}
