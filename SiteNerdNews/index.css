@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,36 +10,9 @@ body {
     font-family:Arial, Helvetica, sans-serif
 }
 
-.ace {
-    border: 6px solid rgb(0, 255, 64);
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-
 .banner {
     border: 6px solid rgb(0, 255, 64);
     margin:auto
-}
-
-.cardd {
-    margin: auto;
-    display: grid;
-    position: relative;
-}
-
-.noticia {
-    color: black;
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
-    position: absolute;
-    font-size-adjust: 0.58;
-    bottom: 5px;
-    left: 50%;
-    transform: translate(-50%, 0px);
-    translate: auto;
 }
 
 .tab {
@@ -48,6 +21,22 @@ body {
     font-size: 20px;
     font-weight: 400;
     font-style: none;
+    text-shadow: 2px 0px 10px rgb(0, 255, 64);
+}
+
+.tab:hover {
+    color: rgb(241, 255, 240);
+    text-shadow: 2px 0px 10px rgb(241, 255, 240);
+    transition: 0.5s;
+}
+
+hr {
+    border-top: 2px solid rgb(0, 255, 64);
+}
+
+.final {
+    color: rgb(0, 255, 64);
+    text-align: center;
     text-shadow: 2px 0px 10px rgb(0, 255, 64);
 }
 
@@ -61,4 +50,81 @@ ul {
 
 .not {
     user-select: none;
+}
+
+.card {
+    background-color: rgb(0, 255, 64);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 580px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.cardimage {
+    display: flex;
+    justify-content: center;
+    border: 0px solid rgb(0, 255, 64);
+    margin: auto;
+}
+
+.cardtext {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.card2 {
+    border-radius: 30px;
+    background-color: rgb(0, 255, 64);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 850px;
+    padding: 20px;
+    padding-top: 27px;
+    padding-bottom: 5px;
+}
+
+.cardimage2 {
+    display: flex;
+    justify-content: center;
+    border: 0px solid rgb(0, 255, 64);
+    margin: auto;
+}
+
+.cardtext2 {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.card3 {
+    border-radius: 30px;
+    background-color: rgb(0, 255, 64);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 850px;
+    padding: 20px;
+    padding-top: 27px;
+    padding-bottom: 5px;
+}
+
+.cardimage3 {
+    display: flex;
+    justify-content: center;
+    border: 0px solid rgb(0, 255, 64);
+    margin: auto;
+}
+
+.cardtext3 {
+    color: black;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
 }
